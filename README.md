@@ -4,7 +4,7 @@ Python trading bot built off of standard Breakout Trading strategy:
 
  - Algorithm observes past highs of given instrument
  - Buy signal will be generated once price exceeds previous high
- - Once security is purchased, stop-loss is implemented to follow price movememnt conjunctively
+ - Once security is purchased, stop-loss is implemented to follow price movement conjunctively
  - When price drops by established loss percentage, position will be closed
 
 Algorithm dynamically determines Lookback Length:
