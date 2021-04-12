@@ -1,6 +1,6 @@
 import numpy as np
 
-class FrictionlessEmotion(QCAlgorithm):
+class BreakoutAlgorithm(QCAlgorithm):
 
     # initialize values
     def Initialize(self):
