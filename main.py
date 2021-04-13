@@ -10,7 +10,7 @@ class BreakoutAlgorithm(QCAlgorithm):
         
         # set start and end dates for backtesting
         self.SetStartDate(2017,9,1)
-        self.SetEndDate(2020,9,1)
+        self.SetEndDate(2021,4,1)
         
         # add asset to algorithm using .AddEquity. First parameter is S&P500 equity to add, second parameter is Daily resolution of data
         self.symbol = self.AddEquity("SPY", Resolution.Daily).Symbol
