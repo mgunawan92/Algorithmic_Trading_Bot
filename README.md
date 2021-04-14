@@ -10,6 +10,7 @@ Python trading bot built off of standard Breakout Trading strategy:
 Algorithm dynamically determines Lookback Length:
 
   - Lookback Length is determined based on volatility adjustment
+
     - When volatility for security is high, lookback length reaches further into previous history, and vice-versa when volatility is low
     - Doing so allows for algorithm to automatically adapt to changes in volatility
 
