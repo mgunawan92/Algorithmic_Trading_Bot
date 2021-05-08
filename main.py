@@ -40,7 +40,7 @@ class BreakoutAlgorithm(QCAlgorithm):
         
     def EveryMarketOpen(self):
         
-        # History method returns close, high, low and open price over the past 31 days, although we want only the close
+        # history method returns close, high, low and open price over the past 31 days, although we want only the close
         close = self.History(self.symbol, 31, Resolution.Daily)["close"]
         
         # to calculate volatility, we take standard deviation of the closing price over the past 30 days for the current day
