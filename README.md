@@ -14,4 +14,4 @@ Algorithm dynamically determines Lookback Length:
     - When volatility for security is high, lookback length reaches further into previous history, and vice-versa when volatility is low
     - Doing so allows for algorithm to automatically adapt to changes in volatility
 
-Algorithm built using Python, Numpy Library, and QuantConnect Platform
+Algorithm built using Python3, Numpy Library, and QuantConnect Platform
