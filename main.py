@@ -2,6 +2,8 @@ import numpy as np
 
 class BreakoutAlgorithm(QCAlgorithm):
 
+    # standard breakout strategy for specific security
+    
     # initialize values
     def Initialize(self):
         
